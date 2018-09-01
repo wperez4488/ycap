@@ -14,5 +14,14 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 // adding boostrap 4 scss support
 @import "bootstrap4/bootstrap.scss";
 
+@import "font-awesome5/fontawesome.scss";
+@import "font-awesome5/solid.scss";
+@import "font-awesome5/brands.scss";
+
+
+
+
+
+@import "home";
 @import "jumbotron";
 @import "about";

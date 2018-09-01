@@ -14,7 +14,7 @@ get_header();
 ?>
 
 <!-- jumbotron or hero -->
-<?php get_template_part( 'template-parts/jumbotron' ); ?>
+<?php get_template_part( 'template-parts/home_parts/jumbotron' ); ?>
 
 
 <section id="about">
