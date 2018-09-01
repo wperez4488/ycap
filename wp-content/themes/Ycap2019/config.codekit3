@@ -431,6 +431,13 @@
 		"oAP": "\/comments.php",
 		"oF": 0
 		},
+	"\/fake.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fake.php",
+		"oF": 0
+		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -688,6 +695,19 @@
 		"oAP": "\/rtl-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/sass\/_about.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_about.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/sass\/_jumbotron.scss": {
 		"aP": 0,
@@ -1879,6 +1899,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-parts\/content.php",
+		"oF": 0
+		},
+	"\/template-parts\/jumbotron.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-parts\/jumbotron.php",
 		"oF": 0
 		}
 	},

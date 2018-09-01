@@ -9,57 +9,31 @@ $partner_5 = get_field('partner_5');
 $partner_6 = get_field('partner_6');
 $partner_7 = get_field('partner_7');
 $partner_8 = get_field('partner_8');
+
 get_header();
 ?>
-<div class="hero">
-	<div class="container-hugo">
-		<div class="wrap">
-			<div class="header text-left">
-				<h1>Yonkers<br> Community <br> <span class="yellow">Action Program</span></h1>
-			<hr>
-			</div>
-			
-			<div class="subline">
-				
-				<p>Helping People. Changing Lives</p>
-			</div> 
 
-			<div class="hugs">
-				<img src="<?php bloginfo('stylesheet_directory');?>/assets/img/hugs.png" alt="">
-				<div class="content col-md-6">
-					<?php echo $blurb_1;?>
-				</div>
+<!-- jumbotron or hero -->
+<?php get_template_part( 'template-parts/jumbotron' ); ?>
+
+
+<section id="about">
+	<div class="inner">
+		<div class="wrap">
+			<div class="main-image">
+				<img src="/wp-content/themes/Ycap2019/assets/img/Group.png" alt="">
 			</div>
-			
-			<div class="group">
-				<img src="<?php bloginfo('stylesheet_directory');?>/assets/img/Group.png" alt="">
+
+			<div class="about-info">
+				<div class="title">Our Mission</div>
+				<div class="statement">
+					<?php echo $statement;?>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio, id ab animi ducimus nam at ad dicta dolorum error adipisci, quo sequi. Possimus, officia qui ipsa saepe explicabo, officiis.
+				</div>
 			</div>
 
 		</div>
 	</div>
-</div>
-
-
-<section class="about">
-	<div class="container-fluid">
-		<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<img src="" alt="">
-			</div>
-
-			<div class="col-md-6">
-				<div class="title">Our Mission</div>
-				<div class="statement">
-					<?php echo $statement;?>
-				</div>
-			</div>
-
-			</div>
-	</div>
-</div>
-
-
 </section>
 
 
