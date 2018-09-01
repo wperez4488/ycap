@@ -11,16 +11,20 @@ Text Domain: ycap
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
 
+// boostrap overide theme options
+@import "theme";
+
 // adding boostrap 4 scss support
 @import "bootstrap4/bootstrap.scss";
 
+$fa-font-path: "webfonts"; //points to webfonts folder for fontawesome
 @import "font-awesome5/fontawesome.scss";
 @import "font-awesome5/solid.scss";
 @import "font-awesome5/brands.scss";
 
 
-
-
+// font support
+@import "fonts";
 
 @import "home";
 @import "jumbotron";

@@ -1,13 +1,14 @@
 .home {
-
-	#site-navigation {
-		// .menu {
-		// 	li {
-		// 		&:before {
-		// 			@extend .fas;
-		// 			@extend .fa-users;
-		// 		}
-		// 	}
-		// }
+	header {
+		.top-navigation {
+			@extend .navbar ;
+			@extend .navbar-light ;
+			@extend .bg-light ;
+			@extend .justify-content-between ;
+			
+			.main-container {
+				@extend .container;
+			}
+		}
 	}
 }

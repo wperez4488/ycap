@@ -191,17 +191,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/img\/logo2x.png": {
-		"ft": 32768,
-		"iS": 5450,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/img\/ncc.jpg": {
 		"ft": 16384,
 		"iS": 43384,
@@ -702,6 +691,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/_home.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -724,6 +726,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/_jumbotron.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_theme.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1976,6 +1991,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/font-awesome5\/brands.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sass\/font-awesome5\/brands-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/sass\/font-awesome5\/brands.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2002,6 +2027,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/font-awesome5\/regular.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sass\/font-awesome5\/regular-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/sass\/font-awesome5\/regular.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2015,6 +2050,16 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/font-awesome5\/solid.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sass\/font-awesome5\/solid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/sass\/font-awesome5\/solid.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2027,6 +2072,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/sass\/font-awesome5\/v4-shims.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sass\/font-awesome5\/v4-shims-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/sass\/font-awesome5\/v4-shims.scss": {
 		"aP": 0,
@@ -2146,6 +2201,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-parts\/home_parts\/jumbotron.php",
+		"oF": 0
+		},
+	"\/template-parts\/jumbotron.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-parts\/jumbotron.php",
 		"oF": 0
 		},
 	"\/webfonts\/fa-brands-400.eot": {
