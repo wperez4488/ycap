@@ -1,5 +1,4 @@
 <?php
-
 $blurb_1 = get_field('blurb1');
 $statement = get_field('statement');
 $partner_1 = get_field('partner_1');
@@ -13,8 +12,8 @@ $partner_8 = get_field('partner_8');
 get_header();
 ?>
 <div class="hero">
-	<div class="container-fluid">
-		<div class="container">
+	<div class="container-hugo">
+		<div class="wrap">
 			<div class="header text-left">
 				<h1>Yonkers<br> Community <br> <span class="yellow">Action Program</span></h1>
 			<hr>
