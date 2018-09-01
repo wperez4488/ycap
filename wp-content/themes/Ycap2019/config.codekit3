@@ -1781,17 +1781,6 @@
 		"oS": 1,
 		"uL": 1
 		},
-	"\/screenshot.png": {
-		"ft": 32768,
-		"iS": 264,
-		"oA": 0,
-		"oAP": "\/screenshot.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/search.php": {
 		"cB": 0,
 		"ft": 8192,
