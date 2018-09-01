@@ -23,10 +23,10 @@
 define('DB_NAME', 'ycap');
 
 /** MySQL database username */
-define('DB_USER', 'admin');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'jBPueqnN5ivgSWFb');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'vg|NC[}}~]U}R{kz-fS`rwAzJL68+Q.EriV85<4BZS^Xc=sCjiF|ow-XO#w6DRz>');
-define('SECURE_AUTH_KEY',  '*YrRa<K/f}EnE*pTa;}P[~e|O@xc7#u,.~G{*{^ vyo%%-c~}aJrcSZ/GC!YqW-u');
-define('LOGGED_IN_KEY',    'w,,Wn|g{fG)yx_[kCg>3q3;8AZi59K];C)5}S~;9v2s,xQ%9dj0.HwsKyJ1Xz>h!');
-define('NONCE_KEY',        ',Shb#b0(1pvj]Q]z{MJKh$N(HCWKu85 <![l8jB2Qpvw{Atl@k/2L}}Pud8m1gb#');
-define('AUTH_SALT',        'ZYS:%viu4=P=h]R^h.EfWvn!?9~|E-NM`@:JUy*cq$_p&j<kKDOxJO5S;]3tK_kj');
-define('SECURE_AUTH_SALT', 'OE*txvhBRPY}tqu+nWH<y[t<jo7`{v3ragUM-R<6wN+flr2u(nU56z8bP[ldFj<g');
-define('LOGGED_IN_SALT',   '$yRq2v(R@1|`@Ua4f-<}5c()N5iq7[l!Ks+R}Uz3BjRjk^`l<YJ_t=r7:RN>rIT3');
-define('NONCE_SALT',       '(1;d`7P./+D:J#-WJXqrm*8pip?F5fE;p=f&t5e|`MYsfGmnHhaH(M:$(![0f:_&');
+define('AUTH_KEY',         'w<I#0%?WB_lG0*e`k]N@&n~VdLD=%o[D KBJk$j^?Lc[5,OAsS)5z?p,M(L@z$,=');
+define('SECURE_AUTH_KEY',  'Zn,b+.imgv$E4#zn66zV:gXEm+x- m@Hk`kSK1-z7}{.`FHx=c~n3^o&c:giL Yl');
+define('LOGGED_IN_KEY',    'cWf}edL77+L_SmW^dRI*(DL7OtLZ2%:5zUb>:@:^ezR&sqoc12q8=e((~w9JUbL(');
+define('NONCE_KEY',        '4)0:}PzUe)x53S-BFIrI[lp@VoMSyf}W6znx1V>z@vlk?tX0E(zTe)Wo@zjLWsA7');
+define('AUTH_SALT',        'bqbR6S[Pyg-<.%:w_GodN:9&2(.eUkRG.g<:!r6`z +7XPqh9EVww$fxnU77JU>%');
+define('SECURE_AUTH_SALT', '~/HncM#u4n<oWFtMwEPG<TwCGCe!FzP)Y~PwYGU4c):?*qt8cS@WlMFeZ?M[y&%f');
+define('LOGGED_IN_SALT',   'cowsz[MZ 7 4*K/xz%=zx/~%!rv_!zM%y~7_1Ix*s<}w#K u|^-h%9Fnp2Myz%Jw');
+define('NONCE_SALT',       '@Zb^|Oh~<G3|eHn<o*}D3%nBF$ QzAb#ATSi&-)LBKOR3O.Do?=zHc9s`rq}?-q`');
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define('NONCE_SALT',       '(1;d`7P./+D:J#-WJXqrm*8pip?F5fE;p=f&t5e|`MYsfGmnHhaH
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'ycap_';
+$table_prefix  = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
