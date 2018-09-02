@@ -21,7 +21,7 @@ get_header();
 	<div class="inner">
 		<div class="wrap">
 			<div class="main-image">
-				<img src="/wp-content/themes/Ycap2019/assets/img/Group.png" alt="">
+				<img src="/wp-content/themes/Ycap2019/assets/img/pic-image.png" alt="">
 			</div>
 
 			<div class="about-info">
