@@ -12,7 +12,7 @@
 		</div>
 		<div class="wrap">
 			<div class="hugs">
-				<img src="/assets/img/hugs.png" alt="">
+				<img src="/wp-content/themes/Ycap2019/assets/img/hugs.png" alt="">
 			</div>
 			
 			<div class="intro">
@@ -24,7 +24,7 @@
 		</div>
 		<div class="wrap">
 			<div class="group">
-				<img src="../assets/img/Group.png" alt="">
+				<img src="/wp-content/themes/Ycap2019/assets/img/Group.png" alt="">
 			</div>
 		</div>
 	</div>
