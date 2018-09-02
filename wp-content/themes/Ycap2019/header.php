@@ -33,43 +33,14 @@
 		  		<img src="/assets/img/logo2x.png" alt="">
 		  	  </a> -->
 		  	
-		  	<div class="form-inline">
-		  	  <a class="btn btn-primary" data-toggle="modal"data-target="#exampleModal" href="">
-		  	  	<i class="fas fa-bars"></i>
-		  	  </a>
-		  				
-				<!-- Modal -->
-				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				  <div class="modal-dialog" role="document">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLabel">Menu</h5>
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-				          <span aria-hidden="true">&times;</span>
-				        </button>
-				      </div>
-				      <div class="modal-body">
-				      	<!-- registerd 'menu-1' in functions.php -->
-				        <?php 
-		                    wp_nav_menu( array(
-		                            'theme_location'    => 'menu-1',
-		                            'container'         => '',
-		                            'container_class'   => '',
-		                            'menu_class'        => 'menu-1 nav navbar-nav',
-		                            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback'
-		                            // 'walker'            => new wp_bootstrap_navwalker()
-		                        )
-		                    );
-		                ?>
-				      </div>
-				      <div class="modal-footer">
-				       <!--  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				        <button type="button" class="btn btn-primary">Save changes</button> -->
-				      </div>
-				    </div>
-				  </div>
-				</div>
-				<!-- end modal -->
+		  	<div class="burger">
+		  		<a href="" class="btn btn-outline-light contact">
+		  			contact us
+		  		</a>
+				<a class="btn btn-outline-light ham" data-toggle="modal" data-target="#primary-menu" href="">
+					<i class="fas fa-bars"></i>
+				</a>
+				<!-- modal in footer  -->
 		  	</div>
 		  </div>
 		</nav>

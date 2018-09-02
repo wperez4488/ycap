@@ -1,27 +1,31 @@
-<div class="hero">
-	<div class="container">
+<div class="top-hero">
+	<div class="inner">
 		<div class="wrap">
-			<div class="header text-left">
-				<h1>Yonkers<br> Community <br> <span class="yellow">Action Program</span></h1>
-			<hr>
+			<div class="header">
+				<h1>
+					<?php bloginfo( ‘name’ ); ?>
+				</h1>
 			</div>
-			
-			<div class="subline">
-				
-				<p>Helping People. Changing Lives</p>
+			<div class="subline">			
+				<p><?php bloginfo( ‘description’ ); ?></p>
 			</div> 
-
+		</div>
+		<div class="wrap">
 			<div class="hugs">
 				<img src="/assets/img/hugs.png" alt="">
-				<div class="content col-md-6">
-					<?php echo $blurb_1;?>
-				</div>
 			</div>
 			
-			<div class="group">
-				<img src="/assets/img/Group.png" alt="">
-			</div>
+			<div class="intro">
+				<p>
+					To engage and empower the residents of Yonkers by providing resources and services that improve health, education and employment outcomes as well as support economic self-sufficiency and poverty reduction.
 
+				</p>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="group">
+				<img src="../assets/img/Group.png" alt="">
+			</div>
 		</div>
 	</div>
 </div>

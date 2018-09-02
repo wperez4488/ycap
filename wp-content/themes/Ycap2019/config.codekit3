@@ -191,6 +191,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/logo2x.png": {
+		"ft": 32768,
+		"iS": 5450,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logo2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/ncc.jpg": {
 		"ft": 16384,
 		"iS": 43384,
@@ -704,6 +715,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/_home.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -726,6 +750,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/_jumbotron.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2111,7 +2148,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 686317,
+		"iS": 264,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,

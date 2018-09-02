@@ -1,0 +1,39 @@
+header {
+		.top-navigation {
+			@extend .navbar ;
+			// @extend .navbar-light ;
+			// @extend .bg-light ;
+			@extend .justify-content-between ;
+			@extend .fixed-top;
+			
+			.main-container {
+				padding:0;
+				@extend .container-fluid;
+				
+
+				.custom-logo-link {
+					img {
+						width:125px;
+						height:auto;
+
+						@include phone {
+							width:100%;
+						}
+					}
+				}
+				.burger {
+					.contact {
+						@include phone {
+							margin-right:1rem;
+							padding-right:2rem;
+							padding-left:2rem;
+						}
+					}
+					.ham {
+	
+					}
+
+				}
+			}
+		}
+	}

@@ -78,6 +78,41 @@ $phone = get_field('phone');
 		</div>
 	</div>
 </footer>
+
+<!-- modals -->
+<!-- Modal -->
+				<div class="modal fade" id="primary-menu" tabindex="-1" role="dialog" aria-labelledby="primary-menu" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title" id="primary-menu">Menu</h5>
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				      	<!-- registerd 'menu-1' in functions.php -->
+				        <?php 
+		                    wp_nav_menu( array(
+		                            'theme_location'    => 'menu-1',
+		                            'container'         => '',
+		                            'container_class'   => '',
+		                            'menu_class'        => 'menu-1 nav navbar-nav',
+		                            'fallback_cb'       => 'wp_bootstrap_navwalker::fallback'
+		                            // 'walker'            => new wp_bootstrap_navwalker()
+		                        )
+		                    );
+		                ?>
+				      </div>
+				      <div class="modal-footer">
+				       <!--  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary">Save changes</button> -->
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				<!-- end modal -->
+
 <?php wp_footer(); ?>
 
 </body>

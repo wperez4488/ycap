@@ -1,14 +1,7 @@
 .home {
-	header {
-		.top-navigation {
-			@extend .navbar ;
-			@extend .navbar-light ;
-			@extend .bg-light ;
-			@extend .justify-content-between ;
-			
-			.main-container {
-				@extend .container;
-			}
-		}
-	}
+
+}
+
+section {
+	margin-top:8em;
 }

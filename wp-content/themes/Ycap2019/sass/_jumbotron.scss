@@ -1,3 +1,95 @@
-.container-hugo {
-	@extend .container;
+.top-hero {
+	position:relative;
+	height:100vh;
+	min-height:735px;
+	padding:5em 0 0 0;
+	margin-bottom:4em;
+	// background images
+	background: 
+	// url(./assets/img/Group.png) right bottom / auto no-repeat,
+	url(./assets/img/rowhouse.png) right bottom / auto repeat-x, 
+	url(./assets/img/Path.png) repeat-x, 
+	// url(./assets/img/rowhouse.png) center bottom / contain no-repeat, 
+	url(./assets/img/Rectangle.png) center bottom / cover no-repeat;
+	// url(./assets/img/Path.png) no-repeat;
+
+    background-position: right bottom, center bottom, center bottom, center bottom;
+    // margin: 0px;
+	color: white;
+	@extend .jumbotron;
+	
+	@include phone {
+		min-height:800px;
+		height:80vh;
+	}
+
+	.inner {
+		@extend .container-fluid;
+		// position:relative;
+		.wrap {
+			&:nth-child(1) {
+				.header {
+					@extend .col;
+					@extend .col-sm-8;
+					h1 {
+						color:$secondary-color;
+						font-size: 3rem;
+						padding-bottom:1rem;
+					    font-weight: bold;
+					    text-transform: capitalize;
+					    margin: 0px;
+					    // padding: 10px;
+						border-bottom:1px solid #eee;
+					    
+
+					    &::first-line {
+					    	color:white;
+					    }
+
+					    @include tablet {
+					    	font-size: 6rem;
+					    }
+					}
+				}
+
+				.subline {
+					padding:1rem;
+				}
+			}
+			&:nth-child(2) {
+				@extend .row;
+				.hugs {
+					@extend .col-4;
+					@extend .col-sm-2;
+
+					
+					img {
+						@extend .img-fluid;
+					}
+				}
+
+				.intro {
+					@extend .col-8;
+					@extend .col-sm-5;
+				}
+			}
+
+			&:nth-child(3){
+				@extend .row;
+				.group {
+					position: absolute;
+				    right: 0;
+				    bottom: -7em;
+					img {
+						@extend .img-fluid;
+						// position: relative;
+					 //    right: 1px;
+					 //    bottom: 90px;
+
+					}
+				}
+			}
+
+		}
+	}
 }

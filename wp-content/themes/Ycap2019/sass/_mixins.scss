@@ -1,0 +1,85 @@
+/* =======================================================================
+## ++ Media Queries
+========================================================================== */
+
+
+@mixin lg-desktop {
+        @media (min-width: 1200px){ @content; }
+}
+
+@mixin desktop {
+        @media (min-width: 992px){ @content; }
+}
+
+@mixin tablet {
+        @media (min-width: 768px){ @content; }
+}
+
+@mixin phone {
+        @media (min-width: 500px){ @content; }
+}
+
+// height
+
+@mixin laptop-h {
+        @media (min-height: 750px){ @content; }
+}
+
+/* =======================================================================
+## ++ Unit transform
+========================================================================== */
+
+/*  
+    Used for making containers have width in percentages. 
+    Usage: define elemnt width in px and the width of parent elemnt in px. 
+    eg. .block{width:cp(512px, 1024px)} this will result in .block{width:50%;}   
+*/
+
+@function cp($target, $container) {
+    @return ($target / $container) * 100%;
+}
+
+/*  
+    Used for making px values convert to rem values
+    Usage: define font-size in px and it will convert to rems
+    eg. font-size: rem(14px);
+*/
+
+@function rem($target, $context: $base-font-size) {
+   @if $target == 0 { @return 0 }
+   @return $target / $context + 0rem;
+}
+
+.box-shadow {
+    box-shadow: 2px 4px 5px 1px rgba(0,0,0,.37);
+}
+
+.xs-remove-pad {
+  padding-left:0 !important;
+  padding-right:0 !important;
+
+  @include phone {
+    padding-left:15px !important;
+    padding-right:15px !important;
+  }
+
+}
+
+// "shake what your mama gave you"
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

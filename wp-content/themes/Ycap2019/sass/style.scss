@@ -10,6 +10,8 @@ License URI: LICENSE
 Text Domain: ycap
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
+// sass mixins
+@import "mixins";
 
 // boostrap overide theme options
 @import "theme";
@@ -26,6 +28,7 @@ $fa-font-path: "webfonts"; //points to webfonts folder for fontawesome
 // font support
 @import "fonts";
 
+@import "header";
 @import "home";
 @import "jumbotron";
 @import "about";
