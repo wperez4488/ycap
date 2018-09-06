@@ -9,47 +9,8 @@
 <?php get_template_part( 'template-parts/home_parts/ourMission' ); ?>
 
 
-<!-- <section class="learn">
-
-		<div class="container-fluid">
-			<div class="container">
-				<h2 class="title text-center"> Learn About</h2>
-			<div class="row">
-				<div class="col">
-					<div class="circle">
-						<p>educational Programs</p>
-					</div>
-				</div>
-
-				<div class="col spec">
-					<div class="circle">
-					<p>Our Programs</p>
-				</div></div>f
-				<div class="col">
-						<div class="circle">
-					<p>Healthful Recreation</p>
-				</div>
-			</div>
-
-			</div>
-		
-			<div class="row">
-				<div class="col">
-					<div class="circle">
-					<p>Proper Substanance</p>
-				</div></div>
-				<div class="col">
-					<div class="circle">
-					<p>Financial Independence</p>
-				</div></div>
-
-			</div>
-			
-
-			</div>
-		</div>
-
-</section>
+<!-- Prams -->
+<?php get_template_part( 'template-parts/home_parts/programs' ); ?>
 
 
 <section class="partners">
@@ -165,7 +126,7 @@
 		</div></div>
 	</div>
 	</div>
-</section> -->
+</section>
 
 
 

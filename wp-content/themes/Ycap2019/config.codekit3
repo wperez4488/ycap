@@ -180,6 +180,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/lines@2x.png": {
+		"ft": 32768,
+		"iS": 48232,
+		"oA": 0,
+		"oAP": "\/assets\/img\/lines@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 1993,
@@ -774,6 +785,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/_ourMission.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_programs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_programs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2154,7 +2178,7 @@
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/screenshot.png": {
@@ -2256,6 +2280,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-parts\/home_parts\/ourMission.php",
+		"oF": 0
+		},
+	"\/template-parts\/home_parts\/programs.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/template-parts\/home_parts\/programs.php",
 		"oF": 0
 		},
 	"\/webfonts\/fa-brands-400.eot": {

@@ -1,6 +1,21 @@
 .home {
 	section {
+		// background:red;
 		margin-top:15em;
+
+		.title {
+			@extend .h2;
+			color:$primary-color;
+			font-weight:bold;
+
+		}
+
+		.inner {
+			@extend .container;
+			.wrap {
+				@extend .row;
+			}
+		}
 	}
 }
 

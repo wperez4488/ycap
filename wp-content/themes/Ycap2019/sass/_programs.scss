@@ -1,0 +1,111 @@
+#programs {
+	background-image: url('./assets/img/lines@2x.png');
+	background-position: top;
+
+    @include phone {
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	background-position: center;
+    }
+
+	.inner {
+
+		.title {
+			text-align:center;
+		}
+		.wrap {
+			margin-top:4em;
+				// background:red;
+			
+			.category {
+				margin-top:1em;
+				.circle {
+					// font-size:1.9rem;
+					// background:white;
+					// width: 215px;
+				 //    height: 215px;
+				 //    display: flex;
+				 //    align-items: center;
+				 //    border-width: 1px;
+				 //    border-style: dashed;
+				 //    border-color: black;
+				 //    border-image: initial;
+				 //    border-radius: 50%;
+				 //    margin: auto;
+
+					
+		
+				    a {
+				    	&.title {
+				    		font-size:1.9rem;
+							background:white;
+							width: 215px;
+						    height: 215px;
+						    display: flex;
+						    align-items: center;
+						    border-width: 1px;
+						    border-style: dashed;
+						    border-color: black;
+						    border-image: initial;
+						    border-radius: 50%;
+						    margin: auto;
+
+						    &:hover {
+								opacify:.8;
+								background: linear-gradient(rgb(1, 80, 137), rgb(56, 149, 183));
+								color:#fff !important;
+								border-style: solid;
+								color:blue;
+								text-decoration:none;
+							
+							}
+						   
+				    	}
+				    }
+				}
+
+				// category column change
+				&:nth-child(1) {
+					@extend .col;
+					@extend .col-sm-12;
+
+					a {
+						// width: 180px;
+					 //    height: 180px;
+					 //    text-align: center;
+					 //    color: white;
+					 //    display: inline-flex;
+					 //    justify-content: center;
+					 //    align-items: center;
+					 //    background: linear-gradient(rgb(1, 80, 137), rgb(56, 149, 183));
+					 //    border-radius: 50%;
+					 //    margin:auto;
+
+						// width: 180px !important;
+					 // 	height: 180px !important;
+					
+						.title {
+							&:before {
+
+							}
+							
+						}
+					}
+				}
+				&:nth-child(2) {
+					@extend .col;
+					@extend .col-sm-6;
+				}
+				&:nth-child(3) {
+					@extend .col;
+					@extend .col-sm-6;
+				}
+				&:nth-child(5) {
+					// background:red;
+					@extend .col;
+					@extend .col-sm-12;
+				}
+			}
+		}
+	}
+}

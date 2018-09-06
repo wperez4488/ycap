@@ -2,9 +2,9 @@
 	// background:yellow;
 
 	.inner {
-		@extend .container;
+		// @extend .container;
 		.wrap {
-			@extend .row;
+			// @extend .row;
 			.main-image {
 				@extend .col-12;
 				@extend .col-sm-4;
@@ -37,10 +37,6 @@
 				@extend .col-12;
 				@extend .col-sm-6;
 				
-				.title {
-					@extend .h2;
-
-				}
 
 				.statement {
 
