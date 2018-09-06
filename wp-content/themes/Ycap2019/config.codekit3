@@ -700,19 +700,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/sass\/_about.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/_about.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/sass\/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -774,6 +761,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_ourMission.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_ourMission.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2251,11 +2251,11 @@
 		"oAP": "\/template-parts\/home_parts\/jumbotron.php",
 		"oF": 0
 		},
-	"\/template-parts\/jumbotron.php": {
+	"\/template-parts\/home_parts\/ourMission.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/template-parts\/jumbotron.php",
+		"oAP": "\/template-parts\/home_parts\/ourMission.php",
 		"oF": 0
 		},
 	"\/webfonts\/fa-brands-400.eot": {

@@ -1,0 +1,52 @@
+#about {
+	// background:yellow;
+
+	.inner {
+		@extend .container;
+		.wrap {
+			@extend .row;
+			.main-image {
+				@extend .col-12;
+				@extend .col-sm-4;
+				text-align:center;
+
+					@include tablet {
+						&:before {
+						
+						text-align:center;
+						content:'';
+						display:block;
+						width:60%;
+						min-height:auto;
+						left:-.5em;
+						height:60%;
+						background:$secondary-color;
+						border-radius:50%;
+						position:absolute;
+						z-index:-9;
+					}
+				}
+
+				img {
+					@extend .img-fluid;
+				}
+			}
+
+			.about-info {
+				margin-top:2em;
+				@extend .col-12;
+				@extend .col-sm-6;
+				
+				.title {
+					@extend .h2;
+
+				}
+
+				.statement {
+
+
+				}
+			}
+		}
+	}
+}

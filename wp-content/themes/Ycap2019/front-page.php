@@ -1,44 +1,15 @@
-<?php
-$blurb_1 = get_field('blurb1');
-$statement = get_field('statement');
-$partner_1 = get_field('partner_1');
-$partner_2 = get_field('partner_2');
-$partner_3 = get_field('partner_3');
-$partner_4 = get_field('partner_4');
-$partner_5 = get_field('partner_5');
-$partner_6 = get_field('partner_6');
-$partner_7 = get_field('partner_7');
-$partner_8 = get_field('partner_8');
-
-get_header();
-?>
+<?php 
+	get_header(); 
+	?>
 
 <!-- jumbotron or hero -->
 <?php get_template_part( 'template-parts/home_parts/jumbotron' ); ?>
 
-
-<section id="about">
-	<div class="inner">
-		<div class="wrap">
-			<div class="main-image">
-				<img src="/wp-content/themes/Ycap2019/assets/img/pic-image.png" alt="">
-			</div>
-
-			<div class="about-info">
-				<div class="title">Our Mission</div>
-				<div class="statement">
-					<?php echo $statement;?>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt distinctio, id ab animi ducimus nam at ad dicta dolorum error adipisci, quo sequi. Possimus, officia qui ipsa saepe explicabo, officiis.
-				</div>
-			</div>
-
-		</div>
-	</div>
-</section>
+<!-- our Mission -->
+<?php get_template_part( 'template-parts/home_parts/ourMission' ); ?>
 
 
-
-<section class="learn">
+<!-- <section class="learn">
 
 		<div class="container-fluid">
 			<div class="container">
@@ -53,7 +24,7 @@ get_header();
 				<div class="col spec">
 					<div class="circle">
 					<p>Our Programs</p>
-				</div></div>
+				</div></div>f
 				<div class="col">
 						<div class="circle">
 					<p>Healthful Recreation</p>
@@ -194,7 +165,7 @@ get_header();
 		</div></div>
 	</div>
 	</div>
-</section>
+</section> -->
 
 
 
