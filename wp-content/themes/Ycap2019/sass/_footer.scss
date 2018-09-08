@@ -1,0 +1,109 @@
+#take {
+
+	.inner {
+		.wrap {
+			.take {
+				text-align:center;
+				@extend .col-12;
+
+				.title {
+
+				}
+
+				.btn {
+					@extend .btn-success;
+					padding-right:8em;
+					padding-left:8em;
+				}
+			}
+		}
+	}
+}
+
+
+footer {
+	margin-top:8em;
+	position: relative;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    top: 90px;
+    border-top: 14px solid rgb(245, 230, 99);
+    background: linear-gradient(45deg, rgb(1, 80, 137) 0%, rgb(71, 168, 189) 50%, rgb(1, 80, 137) 100%);
+	
+	.sign {
+		text-align: center;
+	    width: 55%;
+	    box-shadow: rgba(0, 0, 0, 0.18823529411764706) 0px 1px 59px;
+	    position: relative;
+	    bottom: 90px;
+	    margin: auto;
+	    background: white;
+	    padding-top:2em;
+	    padding-bottom:2em;
+
+	    .marg {
+	    	width: 80%;
+    		margin: auto;
+
+
+    		form {
+
+    			display: flex;
+			    flex-direction: column;
+			    text-align: left;
+			    font-family: "Source Sans Pro";
+			    font-size: 13px;
+			    color: rgb(139, 137, 137);
+			    text-transform: uppercase;
+			    margin-top: 30px;
+
+			    label {
+				    display: block;
+
+				    .form-group {
+
+				    	input , textarea {
+				    		color: rgb(102, 102, 102);
+				    		border: 0;
+						    border-bottom: 1px dashed rgb(204, 204, 204);
+						   
+				    	}
+				    }
+				}
+
+				.form-group {
+					& > div {
+						text-align:center;
+					}
+					input {
+						&.one {
+						
+							padding-left:8em;
+							padding-right:8em;
+							text-align:center;
+						}
+					}
+				}
+    		}
+			.title {
+				@extend .h2;
+				color:$primary-color;
+				font-weight:bold;
+			}
+    		.address {
+    			text-transform: uppercase;
+			    color: rgb(139, 137, 137);
+			    margin: 20px 0px;
+    		}
+
+    		.social {
+    			justify-content: space-between;
+			    align-items: center;
+			    border-top: 1px dashed;
+			    margin: 30px 0px;
+    		}
+	    }
+	}
+
+}
