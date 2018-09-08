@@ -481,6 +481,13 @@
 		"oAP": "\/header.php",
 		"oF": 0
 		},
+	"\/inc\/cpi.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/inc\/cpi.php",
+		"oF": 0
+		},
 	"\/inc\/custom-header.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -724,6 +731,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -785,6 +805,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/_ourMission.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_partners.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_partners.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -2280,6 +2313,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/template-parts\/home_parts\/ourMission.php",
+		"oF": 0
+		},
+	"\/template-parts\/home_parts\/partners.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/template-parts\/home_parts\/partners.php",
 		"oF": 0
 		},
 	"\/template-parts\/home_parts\/programs.php": {

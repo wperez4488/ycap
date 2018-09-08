@@ -14,6 +14,19 @@ $phone = get_field('phone');
 
 
 
+<section class="take">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="d-flex justify-content-*-center take">
+			<span class="action">
+				Take Action
+			</span>
+			<button>Join</button>
+		</div></div>
+	</div>
+	</div>
+</section>
 
 
 <footer>

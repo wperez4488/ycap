@@ -152,6 +152,10 @@ require get_template_directory() . '/inc/template-functions.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
+// CPI
+require get_template_directory() . '/inc/cpi.php';
+
+
 /**
  * Load Jetpack compatibility file.
  */
