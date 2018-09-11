@@ -8,7 +8,8 @@
 		.wrap {
 			margin-top:4em;
 			.inner-partner {
-				@extend .col-3;
+				@extend .col-12;
+				@extend .col-sm-3;
 				padding:3em;
 				border-width: .19em !important;
 				border-color:#e8e8e8 !important;

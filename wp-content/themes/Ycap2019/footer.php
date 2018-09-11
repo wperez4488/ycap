@@ -71,28 +71,28 @@ $phone = get_field('phone');
 						</a>	
 					</div>
 				</div>
-
+			
 			</div>
 			
+		</div>
+		<div class="botnav">
+			<div class="inner">
+				<div class="wrap">
+					
+						<?php
+						wp_nav_menu( array(
+							'theme_location' => 'menu-1',
+							'menu_id'        => 'footer',
+							'menu_class' => 'nav',
+						) );
+						?>
+					
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
 
-	<div class="botnav">
-		<div class="inner">
-			<div class="wrap">
-				
-					<?php
-					wp_nav_menu( array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'footer',
-						'menu_class' => 'nav',
-					) );
-					?>
-				
-			</div>
-		</div>
-	</div>
 </footer>
 
 <!-- modals -->

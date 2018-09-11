@@ -1,8 +1,10 @@
 <?php 
 	$post   = get_post( 23 );
 	$title = $post->post_title;
-	$output =  apply_filters( 'the_content', $post->post_content );
 
+	$output =  apply_filters( 'the_content', $post->post_content );
+	
+	$linkme = get_permalink();
  ?>
 
 
@@ -15,9 +17,17 @@
  -->			</div>
 
 			<div class="about-info">
-				<div class="title"><?php echo $title; ?></div>
+				<div class="title">
+					<a href="<?php echo $linkme; ?>">
+						<?php echo $title; ?>
+					</a>
+					</div>
 				<div class="statement">
 					<?php echo $output; ?>
+				
+					<a href="<?php echo $linkme; ?>">
+						read more
+					</a>
 				</div>
 			</div>
 

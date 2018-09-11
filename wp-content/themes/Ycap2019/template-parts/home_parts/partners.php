@@ -28,6 +28,12 @@
 			<!-- end partner -->
 			<?php endwhile; ?>
 		</div>
+		<div class="more_partners">
+			<a href=" http://ycap.com/our_partner">
+				
+				more
+			</a>
+		</div>
 	</div>
 </section>
 

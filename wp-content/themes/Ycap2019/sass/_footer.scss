@@ -12,8 +12,14 @@
 
 				.btn {
 					@extend .btn-success;
-					padding-right:8em;
-					padding-left:8em;
+					width:100%;
+
+					@include phone {
+						width:55%;
+					}
+					@include desktop {
+						width:35%;
+					}
 				}
 			}
 		}
@@ -31,79 +37,113 @@ footer {
     border-top: 14px solid rgb(245, 230, 99);
     background: linear-gradient(45deg, rgb(1, 80, 137) 0%, rgb(71, 168, 189) 50%, rgb(1, 80, 137) 100%);
 	
-	.sign {
-		text-align: center;
-	    width: 55%;
-	    box-shadow: rgba(0, 0, 0, 0.18823529411764706) 0px 1px 59px;
-	    position: relative;
-	    bottom: 90px;
-	    margin: auto;
-	    background: white;
-	    padding-top:2em;
-	    padding-bottom:2em;
+	.form {
+		.inner {
+			.wrap {
+				.sign {
+					text-align: center;
+				    
+				    box-shadow: rgba(0, 0, 0, 0.18823529411764706) 0px 1px 59px;
+				    position: relative;
+				    bottom: 90px;
+				    margin: auto;
+				    background: white;
+				    padding-top:2em;
+				    padding-bottom:2em;
+					
+					@include tablet {
+						width: 55%;
+					}
+				    .marg {
+				    	width: 80%;
+			    		margin: auto;
 
-	    .marg {
-	    	width: 80%;
-    		margin: auto;
 
+			    		form {
 
-    		form {
+			    			display: flex;
+						    flex-direction: column;
+						    text-align: left;
+						    font-family: "Source Sans Pro";
+						    font-size: 13px;
+						    color: rgb(139, 137, 137);
+						    text-transform: uppercase;
+						    margin-top: 30px;
 
-    			display: flex;
-			    flex-direction: column;
-			    text-align: left;
-			    font-family: "Source Sans Pro";
-			    font-size: 13px;
-			    color: rgb(139, 137, 137);
-			    text-transform: uppercase;
-			    margin-top: 30px;
+						    label {
+							    display: block;
 
-			    label {
-				    display: block;
+							    .form-group {
 
-				    .form-group {
+							    	input , textarea {
+							    		color: rgb(102, 102, 102);
+							    		border: 0;
+									    border-bottom: 1px dashed rgb(204, 204, 204);
+									   
+							    	}
+							    }
+							}
 
-				    	input , textarea {
-				    		color: rgb(102, 102, 102);
-				    		border: 0;
-						    border-bottom: 1px dashed rgb(204, 204, 204);
-						   
-				    	}
+							.form-group {
+								& > div {
+									text-align:center;
+								}
+								input {
+									&.one {
+										width:100%;
+										// padding-left:8em;
+										// padding-right:8em;
+										text-align:center;
+									}
+								}
+							}
+			    		}
+						.title {
+							@extend .h2;
+							color:$primary-color;
+							font-weight:bold;
+						}
+			    		.address {
+			    			text-transform: uppercase;
+						    color: rgb(139, 137, 137);
+						    margin: 20px 0px;
+			    		}
+
+			    		.social {
+			    			justify-content: space-between;
+						    align-items: center;
+						    border-top: 1px dashed;
+						    margin: 30px 0px;
+			    		}
 				    }
 				}
+				.botnav {
+					
+					bottom:5em;
+					position:relative;
 
-				.form-group {
-					& > div {
-						text-align:center;
-					}
-					input {
-						&.one {
-						
-							padding-left:8em;
-							padding-right:8em;
-							text-align:center;
+					.inner {
+						.wrap {
+							.nav {
+								@extend .justify-content-center;
+								@extend .nav-pills;
+								li {
+									@extend .nav-item;
+									a {
+										// color:white;
+										@extend .nav-link;
+										@extend .text-light;
+									}
+								}
+							}
 						}
 					}
 				}
-    		}
-			.title {
-				@extend .h2;
-				color:$primary-color;
-				font-weight:bold;
 			}
-    		.address {
-    			text-transform: uppercase;
-			    color: rgb(139, 137, 137);
-			    margin: 20px 0px;
-    		}
+		}
 
-    		.social {
-    			justify-content: space-between;
-			    align-items: center;
-			    border-top: 1px dashed;
-			    margin: 30px 0px;
-    		}
-	    }
+
 	}
+	
 
 }
