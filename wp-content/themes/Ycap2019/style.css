@@ -5225,7 +5225,7 @@ readers do not read off random characters that represent icons */
 
 .fab { font-family: 'Font Awesome 5 Brands'; }
 
-header .top-navigation.fade-in { background: url(./assets/img/Rectangle.png); box-shadow: 0px -1px 20px 0px #06060657; background-position: top left; background-size: cover; }
+header .top-navigation.fade-in { background: url(./assets/img/Rectangle.png); box-shadow: 0px -1px 20px 0px #06060657; background-position: top left; background-size: cover; background-repeat: no-repeat; }
 
 header .top-navigation .main-container { padding: 0; }
 
