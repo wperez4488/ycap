@@ -19,7 +19,7 @@
 
 				<div class="partner-container">
 					<?php echo get_the_post_thumbnail( $post, 'large' ); ?>
-					<?php the_title() ?>
+					<?php //the_title() ?>
 
 					<?php //the_content() ?>
 				</div>

@@ -618,6 +618,16 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/scripts.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/scripts-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/js\/skip-link-focus-fix.js": {
 		"ft": 64,
 		"ma": 0,

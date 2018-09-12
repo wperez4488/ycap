@@ -34,7 +34,7 @@
 		  	  </a> -->
 		  	
 		  	<div class="burger">
-		  		<a href="" class="btn btn-outline-light contact">
+		  		<a href="/contact-us" class="btn btn-outline-light contact">
 		  			contact us
 		  		</a>
 				<a class="btn btn-outline-light ham" data-toggle="modal" data-target="#primary-menu" href="">

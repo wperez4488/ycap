@@ -1,0 +1,1 @@
+var j$=jQuery.noConflict();j$(document).ready(function(){var e=new ScrollMagic.Controller,o=new ScrollMagic.Scene({triggerElement:".header",triggerHook:0}).setClassToggle(".top-navigation","fade-in").addTo(e)});

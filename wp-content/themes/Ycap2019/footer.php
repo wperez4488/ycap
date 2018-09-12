@@ -101,7 +101,7 @@ $phone = get_field('phone');
 				  <div class="modal-dialog" role="document">
 				    <div class="modal-content">
 				      <div class="modal-header">
-				        <h5 class="modal-title" id="primary-menu">Menu</h5>
+				       <!--  <h5 class="modal-title" id="primary-menu">Menu</h5> -->
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 				          <span aria-hidden="true">&times;</span>
 				        </button>
@@ -120,14 +120,16 @@ $phone = get_field('phone');
 		                    );
 		                ?>
 				      </div>
-				      <div class="modal-footer">
-				       <!--  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-				        <button type="button" class="btn btn-primary">Save changes</button> -->
-				      </div>
+				   
 				    </div>
 				  </div>
 				</div>
 				<!-- end modal -->
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
 
 <?php wp_footer(); ?>
 
