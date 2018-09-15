@@ -738,6 +738,19 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/sass\/_archive.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_archive.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -877,6 +890,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/_theme.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_wordpress-core.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_wordpress-core.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

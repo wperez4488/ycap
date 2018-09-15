@@ -1,0 +1,54 @@
+.archive {
+    #content {
+        &.site-content {
+            padding-top:5em;
+            #primary {
+                main {
+                    @extend .container;
+                    .page-header{
+                        h1 {
+                            font-size:1rem;
+                            text-align:right;
+                            border-bottom:1px solid rgb(219, 219, 219);
+                            padding-bottom:1em;
+                            color:#69a5bf;
+                        }
+                    }
+                    article {
+                        @extend .row;
+                        
+                        border-bottom:1px solid #ccc;
+                        padding-bottom:4em;
+                        margin-bottom:2em;
+                        .entry-header {
+                            @extend .col-12;
+                            // padding-top:2em;
+                            // padding-bottom:2em;
+                            text-align:center;
+                        }
+                        .post-thumbnail {
+                            @extend .col-12;
+                            @extend .col-md-4;
+                            text-align:center;
+                            img {
+                                @extend .img-fluid;
+                            }
+                        }
+                        .entry-content {
+                            @extend .col-12;
+                            @extend .col-md-8;
+                            margin:auto;
+
+                            padding-top: 2em;
+                            padding-bottom:2em;
+                        }
+
+                    }
+                }
+            }
+            #secondary {
+                display:none;
+            }
+        }
+    }
+}

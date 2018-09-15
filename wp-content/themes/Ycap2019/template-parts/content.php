@@ -22,8 +22,8 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				ycap_posted_on();
-				ycap_posted_by();
+				//ycap_posted_on();
+				//ycap_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
@@ -54,6 +54,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php ycap_entry_footer(); ?>
+		<?php //ycap_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

@@ -33,65 +33,65 @@ $phone = get_field('phone');
 </section>
 
 
-<footer>
-<div class="form">
-	<div class="inner">
-		<div class="wrap">
-			
-			<div class="sign">
-				<div class="marg">
-				<h2 class="title nc">Sign up for our newsletter</h2>
-				<form>
-				<?php echo do_shortcode( '[contact-form-7 id="51" title="Contact form 1"]' ); ?>
-				</form>
-			
-				<h2 class="title">Contact Us</h2>
+<footer id="footer">
+	<div class="form">
+		<div class="inner">
+			<div class="wrap">
+				
+				<div class="sign">
+					<div class="marg">
+					<h2 class="title nc">Sign up for our newsletter</h2>
+					<form>
+					<?php echo do_shortcode( '[contact-form-7 id="51" title="Contact form 1"]' ); ?>
+					</form>
+				
+					<h2 class="title">Contact Us</h2>
 
-				<span class="address">
-					<p class="cap">Ycap</p>
-					<p>222 somewhere in yonkjers</p>
-					<p>222.222.2222</p>
-					<p>INFO@EMAIL.COM</p>
-				</span>
+					<span class="address">
+						<p class="cap">Ycap</p>
+						<p>222 somewhere in yonkjers</p>
+						<p>222.222.2222</p>
+						<p>INFO@EMAIL.COM</p>
+					</span>
 
-				<div class="social d-flex">
-					<div class="snap">
-						<a href=""> 
-							<i class="fab fa-snapchat"></i>
-						</a>
+					<div class="social d-flex">
+						<div class="snap">
+							<a href=""> 
+								<i class="fab fa-snapchat"></i>
+							</a>
+						</div>
+						<div class="facebook">
+							<a href="">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+						</div>
+						<div class="twitter">
+							<a href=""> 
+								<i class="fab fa-twitter"></i> 
+							</a>	
+						</div>
 					</div>
-					<div class="facebook">
-						<a href="">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-					</div>
-					<div class="twitter">
-						<a href=""> 
-							<i class="fab fa-twitter"></i> 
-						</a>	
-					</div>
+				
 				</div>
-			
+				
 			</div>
-			
-		</div>
-		<div class="botnav">
-			<div class="inner">
-				<div class="wrap">
-					
-						<?php
-						wp_nav_menu( array(
-							'theme_location' => 'menu-1',
-							'menu_id'        => 'footer',
-							'menu_class' => 'nav',
-						) );
-						?>
-					
+			<div class="botnav">
+				<div class="inner">
+					<div class="wrap">
+						
+							<?php
+							wp_nav_menu( array(
+								'theme_location' => 'menu-1',
+								'menu_id'        => 'footer-nav',
+								'menu_class' => 'nav',
+							) );
+							?>
+						
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
 </footer>
 

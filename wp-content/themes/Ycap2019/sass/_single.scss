@@ -6,6 +6,10 @@
                 main {
                     @extend .container;
                     article {
+                        .entry-header {
+
+                        }
+
                         @extend .row;
                         
                         border-bottom:1px solid #ccc;
@@ -14,12 +18,17 @@
                         .entry-header {
                             @extend .col-12;
                             padding-top:2em;
-                            padding-bottom:2em;
+                            padding-bottom:1em;
                             text-align:center;
+
+                            h1 {
+                                color:$primary-color;
+                            }
                         }
                         .post-thumbnail {
+                            display:none;
                             @extend .col-12;
-                            @extend .col-md-4;
+                            // @extend .col-md-4;
                             text-align:center;
                             img {
                                 @extend .img-fluid;
@@ -27,12 +36,38 @@
                         }
                         .entry-content {
                             @extend .col-12;
-                            @extend .col-md-6;
+                            @extend .col-md-8;
+                            margin:auto;
 
-                            padding-top: 2em;
-                            padding-bottom:2em;
+                            padding-top: 1em;
+                            padding-bottom:1em;
+
+                            img {
+                                max-width:100%;
+                                height:auto;
+                            }
                         }
 
+                    }
+
+                    nav {
+                        &.post-navigation {
+                            @extend .container-fluid;
+
+                            .nav-links {
+                                @extend .row;
+
+                                .nav-previous {
+                                    @extend .col-6;
+                                }
+
+                                .nav-next {
+                                    @extend .col-6;
+                                    text-align:right;
+                                }
+
+                            }
+                        }
                     }
                 }
             }

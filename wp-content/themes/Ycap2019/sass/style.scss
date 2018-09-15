@@ -39,3 +39,7 @@ $fa-font-path: "webfonts"; //points to webfonts folder for fontawesome
 
 // single, and page support 
 @import "single";
+@import "archive";
+
+// wordpress core 
+@import "wordpress-core";
