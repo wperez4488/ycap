@@ -83,6 +83,12 @@ if ( ! function_exists( 'ycap_setup' ) ) :
 endif;
 add_action( 'after_setup_theme', 'ycap_setup' );
 
+
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/js/wp-bootstrap-navwalker-master/class-wp-bootstrap-navwalker.php';
+
+
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -121,6 +127,9 @@ add_action( 'widgets_init', 'ycap_widgets_init' );
  */
 function ycap_scripts() {
 	wp_enqueue_style( 'ycap-style', get_stylesheet_uri() );
+
+	// popper for dropdowns
+	// wp_enqueue_script( 'ycap-scripts', get_template_directory_uri() . '/js/poppers/popper.js', array(), true );
 
 	wp_enqueue_script( 'ycap-scripts', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
@@ -172,11 +181,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * Enqueue a script with jQuery as a dependency.
  */
 function wpdocs_scripts_method() {
-    wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/bootstrap/bootstrap.min.js', array( 'jquery' ) );
+    wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/bootstrap/bootstrap.bundle.jsgit', array( 'jquery' ) );
 }
 add_action( 'wp_enqueue_scripts', 'wpdocs_scripts_method' );
 
-add_filter('tc_category_archive_title' , 'my_cat_title');
-function my_cat_title($title) {
-	return 'My archives title for : ';
-}

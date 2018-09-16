@@ -618,6 +618,217 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/js\/poppers\/esm\/popper-utils.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/esm\/popper-utils-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/esm\/popper-utils.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/esm\/popper-utils.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/esm\/popper-utils.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/esm\/popper-utils.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/esm\/popper-utils.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/esm\/popper-utils.min.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/esm\/popper.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/esm\/popper-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/esm\/popper.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/esm\/popper.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/esm\/popper.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/esm\/popper.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/esm\/popper.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/esm\/popper.min.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/esm\/poppper.js.flow": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/esm\/poppper.js.flow",
+		"oF": 0
+		},
+	"\/js\/poppers\/popper-utils.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/popper-utils-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/popper-utils.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/popper-utils.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/popper-utils.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/popper-utils.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/popper-utils.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/popper-utils.min.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/popper.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/popper-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/popper.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/popper.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/popper.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/popper.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/popper.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/popper.min.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/umd\/popper-utils.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/umd\/popper-utils-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/umd\/popper-utils.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/umd\/popper-utils.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/umd\/popper-utils.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/umd\/popper-utils.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/umd\/popper-utils.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/umd\/popper-utils.min.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/umd\/popper.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/umd\/popper-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/umd\/popper.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/umd\/popper.js.map",
+		"oF": 0
+		},
+	"\/js\/poppers\/umd\/popper.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/umd\/popper.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/poppers\/umd\/popper.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/poppers\/umd\/popper.min.js.map",
+		"oF": 0
+		},
 	"\/js\/scripts-min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -647,6 +858,241 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.codeclimate.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.codeclimate.yml",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.csslintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.csslintrc",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.editorconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.editorconfig",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.eslintignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.eslintignore",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.eslintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.eslintrc",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.github\/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.github\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.github\/ISSUE_TEMPLATE.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.github\/ISSUE_TEMPLATE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.github\/PULL_REQUEST_TEMPLATE.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.github\/PULL_REQUEST_TEMPLATE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.gitignore",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.jshintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.jshintrc",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/.travis.yml",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/bin\/install-wp-tests.sh": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/bin\/install-wp-tests.sh",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/class-wp-bootstrap-navwalker.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/class-wp-bootstrap-navwalker.php",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/CODE_OF_CONDUCT.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/CODE_OF_CONDUCT.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/composer.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/composer.lock",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/phpcs.ruleset.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/phpcs.ruleset.xml",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/phpcs.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/phpcs.xml",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/phpunit.xml.dist": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/phpunit.xml.dist",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/tests\/bootstrap.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/tests\/bootstrap.php",
+		"oF": 0
+		},
+	"\/js\/wp-bootstrap-navwalker-master\/tests\/test-navwalker.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/wp-bootstrap-navwalker-master\/tests\/test-navwalker.php",
+		"oF": 0
 		},
 	"\/languages\/readme.txt": {
 		"cB": 0,

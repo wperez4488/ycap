@@ -82,8 +82,13 @@ $phone = get_field('phone');
 							<?php
 							wp_nav_menu( array(
 								'theme_location' => 'menu-1',
+								'depth'             => 2,
 								'menu_id'        => 'footer-nav',
+								'container'         => 'div',
+								'container-class' => 'dropdown',
 								'menu_class' => 'nav',
+								'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+								'walker'            => new WP_Bootstrap_Navwalker(),
 							) );
 							?>
 						
