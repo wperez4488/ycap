@@ -176,3 +176,7 @@ function wpdocs_scripts_method() {
 }
 add_action( 'wp_enqueue_scripts', 'wpdocs_scripts_method' );
 
+add_filter('tc_category_archive_title' , 'my_cat_title');
+function my_cat_title($title) {
+	return 'My archives title for : ';
+}

@@ -703,6 +703,13 @@
 		"oAP": "\/phpcs.xml.dist",
 		"oF": 0
 		},
+	"\/programs-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/programs-page.php",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
