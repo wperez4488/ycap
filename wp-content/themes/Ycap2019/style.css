@@ -5231,7 +5231,7 @@ header .top-navigation .main-container { padding: 0; }
 
 header .top-navigation .main-container .custom-logo-link img { width: 125px; height: auto; }
 
-@media (min-width: 500px) { header .top-navigation .main-container .custom-logo-link img { width: 100%; } }
+@media (min-width: 500px) { header .top-navigation .main-container .custom-logo-link img { width: 280px; } }
 
 @media (min-width: 500px) { header .top-navigation .main-container .burger .contact { margin-right: 1rem; padding-right: 2rem; padding-left: 2rem; } }
 
