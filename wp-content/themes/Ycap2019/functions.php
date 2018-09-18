@@ -181,7 +181,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * Enqueue a script with jQuery as a dependency.
  */
 function wpdocs_scripts_method() {
-    wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/bootstrap/bootstrap.bundle.jsgit', array( 'jquery' ) );
+    wp_enqueue_script( 'custom-script', get_stylesheet_directory_uri() . '/js/bootstrap/bootstrap.bundle.js', array( 'jquery' ) );
 }
 add_action( 'wp_enqueue_scripts', 'wpdocs_scripts_method' );
 
